@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Build output
+dist
+dist-ssr
+*.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env
+.env
+.env.local
+
+# Claude Code local state
+.claude/

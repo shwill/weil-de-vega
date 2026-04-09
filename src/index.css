@@ -1,0 +1,66 @@
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/inter-tight';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Praxisschild palette */
+    --paper: #f5f1e8;
+    --paper-sunk: #eee8d8;
+    --ink: #1a1613;
+    --ink-muted: #6b6258;
+    --oxblood: #6b1e2d;
+    --oxblood-hover: #8a2a3c;
+    --hairline: #d9d0be;
+  }
+
+  html {
+    background-color: var(--paper);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family:
+      'Inter Tight Variable', 'Inter Tight', system-ui, -apple-system,
+      sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    background-color: var(--paper);
+    color: var(--ink);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Fraunces Variable', Fraunces, Georgia, serif;
+    font-weight: 500;
+    font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 0;
+    line-height: 1.15;
+    color: var(--ink);
+  }
+
+  a {
+    color: var(--oxblood);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--oxblood-hover);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* Tabular numerals for hours table */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
