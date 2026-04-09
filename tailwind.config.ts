@@ -24,7 +24,9 @@ export default {
         ],
       },
       maxWidth: {
-        column: '640px',
+        /* Content column width. 720px is narrow enough to feel like a printed
+           card but wide enough to fit the full practice name on one display line. */
+        column: '720px',
       },
       fontVariantNumeric: {
         tabular: 'tabular-nums',

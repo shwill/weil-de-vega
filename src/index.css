@@ -43,9 +43,13 @@
   h6 {
     font-family: 'Fraunces Variable', Fraunces, Georgia, serif;
     font-weight: 500;
-    font-variation-settings: 'opsz' 144, 'SOFT' 0, 'WONK' 0;
+    /* Let the browser auto-tune the opsz axis to the actual rendered size
+       (cleaner than hard-coding opsz=144, which was making letters too wide). */
+    font-optical-sizing: auto;
+    font-variation-settings: 'SOFT' 0, 'WONK' 0;
     line-height: 1.15;
     color: var(--ink);
+    text-wrap: balance;
   }
 
   a {

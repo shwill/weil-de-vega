@@ -4,7 +4,7 @@ export function PracticeHeader() {
   return (
     <header className="px-6 pt-24 pb-16 md:pt-32 md:pb-24">
       <div className="mx-auto max-w-column">
-        <h1 className="font-display text-4xl leading-[1.1] text-ink md:text-[56px]">
+        <h1 className="font-display text-4xl leading-[1.1] text-ink md:text-5xl">
           {PRACTICE.doctorName}
         </h1>
 
