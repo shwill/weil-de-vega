@@ -16,7 +16,7 @@ export const PRACTICE = {
   fax: {
     display: '0781 / 970 507 12',
   },
-  email: 'Praxis.WeilDeVega@gmx.de',
+  email: 'Praxis.weildevega@gmx.de',
   chamber: {
     name: 'Landesärztekammer Baden-Württemberg',
     street: 'Jahnstraße 40',
